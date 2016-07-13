@@ -1,0 +1,1062 @@
+﻿Log file open, 07/13/16 13:06:04
+LogInit:Display: Running engine for game: VRExp41202
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1241542776) SRandInit(1241542778).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.151479
+LogInit: Version: 4.12.4-3028348+++UE4+Release-4.12
+LogInit: API Version: 2992821
+LogInit: Net Version: 3028348
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 3
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 2
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 6
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 2
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jun 27 2016 09:29:04
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.12
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.12/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.07.13-11.06.04:205][  0]LogInit: Selected Device Profile: [Windows]
+[2016.07.13-11.06.04:205][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.07.13-11.06.04:236][  0]LogInit: Computer: DESKTOP-EP0P9HN
+[2016.07.13-11.06.04:236][  0]LogInit: User: MSI
+[2016.07.13-11.06.04:236][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.07.13-11.06.04:236][  0]LogInit: High frequency timer resolution =2.648433 MHz
+[2016.07.13-11.06.04:236][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.07.13-11.06.04:236][  0]LogMemory: Platform Memory Stats for Windows
+[2016.07.13-11.06.04:236][  0]LogMemory: Process Physical Memory: 191.21 MB used, 191.21 MB peak
+[2016.07.13-11.06.04:236][  0]LogMemory: Process Virtual Memory: 195.08 MB used, 195.08 MB peak
+[2016.07.13-11.06.04:236][  0]LogMemory: Physical Memory: 2233.38 MB used, 16332.74 MB total
+[2016.07.13-11.06.04:236][  0]LogMemory: Virtual Memory: 554.36 MB used, 134217728.00 MB total
+[2016.07.13-11.06.04:413][  0]LogTextLocalizationManager: No translations for ('it-IT') exist, falling back to 'en' for localization and internationalization data.
+[2016.07.13-11.06.04:760][  0]LogD3D11RHI: D3D11 adapters:
+[2016.07.13-11.06.04:788][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 980' (Feature Level 11_0)
+[2016.07.13-11.06.04:788][  0]LogD3D11RHI:       8092/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2016.07.13-11.06.04:790][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.07.13-11.06.04:790][  0]LogD3D11RHI:       0/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2016.07.13-11.06.04:790][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.07.13-11.06.04:793][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.07.13-11.06.04:793][  0]LogD3D11RHI:     GPU DeviceId: 0x161a (for the marketing name, search the web for "GPU Device Id")
+[2016.07.13-11.06.04:794][  0]LogWindows: EnumDisplayDevices:
+[2016.07.13-11.06.04:794][  0]LogWindows:    0. 'NVIDIA GeForce GTX 980' (P:1 D:1)
+[2016.07.13-11.06.04:794][  0]LogWindows:    1. 'NVIDIA GeForce GTX 980' (P:0 D:0)
+[2016.07.13-11.06.04:794][  0]LogWindows:    2. 'NVIDIA GeForce GTX 980' (P:0 D:0)
+[2016.07.13-11.06.04:794][  0]LogWindows:    3. 'NVIDIA GeForce GTX 980' (P:0 D:0)
+[2016.07.13-11.06.04:794][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2016.07.13-11.06.04:794][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 980
+[2016.07.13-11.06.04:794][  0]LogD3D11RHI:   Driver Version: 368.39 (internal:10.18.13.6839, unified:368.39)
+[2016.07.13-11.06.04:794][  0]LogD3D11RHI:      Driver Date: 6-2-2016
+[2016.07.13-11.06.04:794][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.07.13-11.06.04:804][  0]LogD3D11RHI: Async texture creation enabled
+[2016.07.13-11.06.04:833][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2016.07.13-11.06.04:839][  0]LogShaderCompilers: Guid format shader working directory is -19 characters bigger than the processId version (../../../../../../Users/MSI/Desktop/WitnessUnrealRepo/VRExp41202/Intermediate/Shaders/WorkingDirectory/820/).
+[2016.07.13-11.06.04:840][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/MSI/AppData/Local/Temp/UnrealShaderWorkingDir/C1972A514E3BCAEC98EDB5B78A6A6FB0/'.
+[2016.07.13-11.06.04:840][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.07.13-11.06.06:312][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.07.13-11.06.06:319][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.07.13-11.06.06:327][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.07.13-11.06.06:335][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.07.13-11.06.06:342][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.07.13-11.06.06:351][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.07.13-11.06.06:357][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.07.13-11.06.06:363][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.07.13-11.06.06:370][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.07.13-11.06.06:377][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.07.13-11.06.06:383][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.07.13-11.06.06:397][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.07.13-11.06.06:397][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.07.13-11.06.06:398][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.07.13-11.06.06:443][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.07.13-11.06.06:449][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.07.13-11.06.06:455][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.07.13-11.06.06:461][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.07.13-11.06.06:470][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.07.13-11.06.06:470][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.07.13-11.06.06:766][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.07.13-11.06.06:906][  0]LogDerivedDataCache: Loaded boot cache 0.14s 75MB C:/Users/MSI/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.07.13-11.06.06:906][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/MSI/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
+[2016.07.13-11.06.06:906][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/MSI/Desktop/WitnessUnrealRepo/VRExp41202/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.07.13-11.06.06:906][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.07.13-11.06.06:906][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/MSI/Desktop/WitnessUnrealRepo/VRExp41202/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.07.13-11.06.06:906][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.07.13-11.06.06:924][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.07.13-11.06.06:937][  0]LogDerivedDataCache: Using Local data cache path C:/Users/MSI/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.07.13-11.06.09:007][  0]LogInit: Selected Device Profile: [Windows]
+[2016.07.13-11.06.09:010][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.07.13-11.06.09:299][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.07.13-11.06.09:299][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.07.13-11.06.09:299][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.07.13-11.06.09:825][  0]LogAssetRegistry: FAssetRegistry took 0.0235 seconds to start up
+[2016.07.13-11.06.09:846][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.014053 seconds
+[2016.07.13-11.06.09:851][  0]LogUObjectArray: 28739 objects as part of root set at end of initial load.
+[2016.07.13-11.06.09:851][  0]LogUObjectAllocator: 5855632 out of 0 bytes used by permanent object pool.
+[2016.07.13-11.06.09:851][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.07.13-11.06.09:858][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.07.13-11.06.10:250][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.07.13-11.06.10:250][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.07.13-11.06.11:536][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.07.13-11.06.11:877][  0]SourceControl: Info Source control is disabled
+[2016.07.13-11.06.11:958][  0]SourceControl: Info Source control is disabled
+[2016.07.13-11.06.11:969][  0]SourceControl: Info Source control is disabled
+[2016.07.13-11.06.11:978][  0]SourceControl: Info Source control is disabled
+[2016.07.13-11.06.12:221][  0]LogEngine: Initializing Engine...
+[2016.07.13-11.06.12:310][  0]LogHMD: SteamVR failed to initialize.  Err: 126
+[2016.07.13-11.06.12:315][  0]LogHMD: SteamVR failed to initialize.  Err: 126
+[2016.07.13-11.06.12:531][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.07.13-11.06.12:540][  0]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.07.13-11.06.12:640][  0]LogInit: FAudioDevice initialized.
+[2016.07.13-11.06.12:668][  0]LogDerivedDataCache: Saved boot cache 0.03s 49MB C:/Users/MSI/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.07.13-11.06.12:675][  0]LogInit: Texture streaming: Enabled
+[2016.07.13-11.06.12:706][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.07.13-11.06.12:724][  0]LogInit: Transaction tracking system initialized
+[2016.07.13-11.06.12:779][  0]BlueprintLog: New page: Editor Load
+[2016.07.13-11.06.12:908][  0]LocalizationService: Info Localization service is disabled
+[2016.07.13-11.06.13:000][  0]LogConsoleResponse:Display: 
+[2016.07.13-11.06.13:341][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.07.13-11.06.13:341][  0]LogCook:Display: Mobile HDR setting 1
+[2016.07.13-11.06.13:507][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MSI/Desktop/WitnessUnrealRepo/VRExp41202/Content/' took 0.02s
+[2016.07.13-11.06.13:507][  0]SourceControl: Info Source control is disabled
+[2016.07.13-11.06.13:509][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.07.13-11.06.13:513][  0]LightingResults: New page: Lighting Build
+[2016.07.13-11.06.13:520][  0]MapCheck: New page: Map Check
+[2016.07.13-11.06.13:520][  0]LightingResults: New page: Lighting Build
+[2016.07.13-11.06.13:769][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2016.07.13-11.06.13:892][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.07.13-11.06.13:897][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.07.13-11.06.13:924][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 27.143ms to complete.
+[2016.07.13-11.06.13:924][  0]LogFileHelpers: Loading map 'Template_Default' took 0.416
+[2016.07.13-11.06.14:083][  0]LogCollectionManager: Loaded 0 collections in 0.002300 seconds
+[2016.07.13-11.06.14:134][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MSI/Desktop/WitnessUnrealRepo/VRExp41202/Saved/Collections/' took 0.01s
+[2016.07.13-11.06.14:134][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MSI/Desktop/WitnessUnrealRepo/VRExp41202/Content/Developers/MSI/Collections/' took 0.01s
+[2016.07.13-11.06.14:134][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MSI/Desktop/WitnessUnrealRepo/VRExp41202/Content/Collections/' took 0.01s
+[2016.07.13-11.06.14:134][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2016.07.13-11.06.14:142][  0]LogContentBrowser: Native class hierarchy populated in 0.0067 seconds. Added 2047 classes and 369 folders.
+[2016.07.13-11.06.14:149][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.07.13-11.06.14:149][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.07.13-11.06.14:150][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0007 seconds. Added 12 classes and 0 folders.
+[2016.07.13-11.06.14:159][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.07.13-11.06.14:385][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.07.13-11.06.14:395][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.07.13-11.06.14:441][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.07.13-11.06.14:452][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.07.13-11.06.14:482][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.07.13-11.06.14:482][  0]LogLoad: Full Startup: 11.74 seconds (BP compile: 0.06 seconds)
+[2016.07.13-11.06.14:482][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.07.13-11.06.14:482][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.07.13-11.06.14:500][  0]LogOcInput: OculusInput pre-init called
+[2016.07.13-11.06.14:523][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.07.13-11.06.14:707][  1]LogAssetRegistry: Asset discovery search completed in 4.9045 seconds
+[2016.07.13-11.06.14:708][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.07.13-11.06.14:708][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000245 seconds (updated 0 objects)
+[2016.07.13-11.06.14:720][  2]LogRenderer: Reallocating scene render targets to support 748x396 (Frame:2).
+[2016.07.13-11.06.30:525][465]LogAIModule: Creating AISystem for world Untitled
+[2016.07.13-11.06.30:527][465]LogMaterial:Warning: Material /Game/KiteDemo/Environments/Trees/BirchForest_01/BirchForest_01_Billboard_Mat.BirchForest_01_Billboard_Mat needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2016.07.13-11.06.30:529][465]LogMaterial: Missing cached shader map for material BirchForest_01_Billboard_Mat, compiling. 
+[2016.07.13-11.06.30:583][465]MapCheck:Warning: Warning BirchForest_01_Billboard_Mat Material /Game/KiteDemo/Environments/Trees/BirchForest_01/BirchForest_01_Billboard_Mat.BirchForest_01_Billboard_Mat was missing the usage flag bUsedWithInstancedStaticMeshes. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2016.07.13-11.06.30:591][465]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.06.30:617][465]Cmd: MAP LOAD FILE="../../../../../../Users/MSI/Desktop/WitnessUnrealRepo/VRExp41202/Content/Maps/Untitled.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.07.13-11.06.30:617][465]LightingResults: New page: Lighting Build
+[2016.07.13-11.06.30:617][465]LoadErrors: New page: Loading map: Untitled.umap
+[2016.07.13-11.06.30:618][465]MapCheck: New page: Map Check
+[2016.07.13-11.06.30:618][465]LightingResults: New page: Lighting Build
+[2016.07.13-11.06.30:635][465]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.07.13-11.06.30:671][465]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.07.13-11.06.30:710][465]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 38.533ms to complete.
+[2016.07.13-11.06.30:710][465]LogFileHelpers: Loading map 'Untitled' took 0.094
+[2016.07.13-11.06.33:988][542]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.07.13-11.06.33:988][542]PIE: New page: PIE session: Untitled (Jul 13, 2016, 2:06:33 PM)
+[2016.07.13-11.06.33:989][542]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Untitled
+[2016.07.13-11.06.33:995][542]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005991s)
+[2016.07.13-11.06.33:995][542]LogAIModule: Creating AISystem for world Untitled
+[2016.07.13-11.06.33:995][542]LogPlayLevel: PIE: World Init took: (0.000717s)
+[2016.07.13-11.06.33:995][542]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Untitled.Untitled to /Game/Maps/UEDPIE_0_Untitled.Untitled (0.006889s)
+[2016.07.13-11.06.34:019][542]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.07.13-11.06.34:044][542]LogInit: FAudioDevice initialized.
+[2016.07.13-11.06.34:107][542]LogWorld: Game class is 'GameMode'
+[2016.07.13-11.06.34:110][542]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Untitled.Untitled up for play (max tick rate 60) at 2016.07.13-13.06.34
+[2016.07.13-11.06.34:111][542]LogWorld: Bringing up level for play took: 0.002650
+[2016.07.13-11.06.34:119][542]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2016.07.13-11.06.34:121][542]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Untitled 0.885
+[2016.07.13-11.06.51:327][ 69]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.07.13-11.07.02:531][218]LogMaterial: Missing cached shader map for material River_Birch_Hero_Leaves_Mat, compiling. 
+[2016.07.13-11.07.45:757][875]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.07.13-11.07.45:758][875]PIE: New page: PIE session: Untitled (Jul 13, 2016, 2:07:45 PM)
+[2016.07.13-11.07.45:758][875]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Untitled
+[2016.07.13-11.07.45:760][875]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002753s)
+[2016.07.13-11.07.45:761][875]LogAIModule: Creating AISystem for world Untitled
+[2016.07.13-11.07.45:761][875]LogPlayLevel: PIE: World Init took: (0.000467s)
+[2016.07.13-11.07.45:761][875]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Untitled.Untitled to /Game/Maps/UEDPIE_0_Untitled.Untitled (0.003377s)
+[2016.07.13-11.07.45:774][875]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.07.13-11.07.45:791][875]LogInit: FAudioDevice initialized.
+[2016.07.13-11.07.45:845][875]LogWorld: Game class is 'GameMode'
+[2016.07.13-11.07.45:848][875]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Untitled.Untitled up for play (max tick rate 60) at 2016.07.13-13.07.45
+[2016.07.13-11.07.45:848][875]LogWorld: Bringing up level for play took: 0.001656
+[2016.07.13-11.07.45:850][875]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Untitled 0.614
+[2016.07.13-11.08.06:614][488]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.07.13-11.08.06:614][488]PIE: New page: PIE session: Untitled (Jul 13, 2016, 2:08:06 PM)
+[2016.07.13-11.08.06:614][488]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Untitled
+[2016.07.13-11.08.06:616][488]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002390s)
+[2016.07.13-11.08.06:617][488]LogAIModule: Creating AISystem for world Untitled
+[2016.07.13-11.08.06:617][488]LogPlayLevel: PIE: World Init took: (0.000438s)
+[2016.07.13-11.08.06:617][488]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Untitled.Untitled to /Game/Maps/UEDPIE_0_Untitled.Untitled (0.002974s)
+[2016.07.13-11.08.06:626][488]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.07.13-11.08.06:646][488]LogInit: FAudioDevice initialized.
+[2016.07.13-11.08.06:701][488]LogWorld: Game class is 'GameMode'
+[2016.07.13-11.08.06:703][488]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Untitled.Untitled up for play (max tick rate 60) at 2016.07.13-13.08.06
+[2016.07.13-11.08.06:703][488]LogWorld: Bringing up level for play took: 0.001608
+[2016.07.13-11.08.06:704][488]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Untitled -0.531
+[2016.07.13-11.08.36:683][389]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Untitled" FILE="../../../../../../Users/MSI/Desktop/WitnessUnrealRepo/VRExp41202/Content/Maps/Untitled.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.07.13-11.08.36:744][389]LogSavePackage: Save=28.74ms
+[2016.07.13-11.08.36:744][389]LogSavePackage: Moving '../../../../../../Users/MSI/Desktop/WitnessUnrealRepo/VRExp41202/Saved/Untitled9BB6AEFF49321CC005E565A265ACA1BF.tmp' to '../../../../../../Users/MSI/Desktop/WitnessUnrealRepo/VRExp41202/Content/Maps/Untitled.umap'
+[2016.07.13-11.08.36:749][389]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MSI/Desktop/WitnessUnrealRepo/VRExp41202/Content/Maps/Untitled.umap
+[2016.07.13-11.08.36:777][389]LogFileHelpers: Saving map 'Untitled' took 0.127
+[2016.07.13-11.08.45:744][639]LogSavePackage: Save=33.95ms
+[2016.07.13-11.08.45:744][639]LogSavePackage: Moving '../../../../../../Users/MSI/Desktop/WitnessUnrealRepo/VRExp41202/Saved/TestEnvironmentFade1BDEF7244F92AFDB864ACFB31E8FBB90.tmp' to '../../../../../../Users/MSI/Desktop/WitnessUnrealRepo/VRExp41202/Content/Maps/TestEnvironmentFade.umap'
+[2016.07.13-11.08.45:746][639]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MSI/Desktop/WitnessUnrealRepo/VRExp41202/Content/Maps/TestEnvironmentFade.umap
+[2016.07.13-11.08.45:771][639]LogFileHelpers: Saving map 'TestEnvironmentFade' took 0.102
+[2016.07.13-11.09.00:211][809]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.07.13-11.09.00:237][809]LightingResults: New page: Lighting Build
+[2016.07.13-11.09.00:238][809]LoadErrors: New page: Loading map: Template_Default.umap
+[2016.07.13-11.09.00:265][809]MapCheck: New page: Map Check
+[2016.07.13-11.09.00:265][809]LightingResults: New page: Lighting Build
+[2016.07.13-11.09.00:287][809]LogAIModule: Creating AISystem for world Untitled_2
+[2016.07.13-11.09.00:296][809]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.07.13-11.09.00:324][809]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.07.13-11.09.00:363][809]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 39.043ms to complete.
+[2016.07.13-11.09.00:363][809]LogFileHelpers: Loading map 'Template_Default' took 0.153
+[2016.07.13-11.09.01:513][848]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.07.13-11.09.03:231][880]LogTexture:Display: Building textures: Texture2D_2 (G8)
+[2016.07.13-11.09.08:026][  7]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.09.08:027][  7]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.09.08:027][  7]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.09.08:027][  7]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.09.08:027][  7]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.09.08:028][  7]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.09.08:028][  7]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.09.08:028][  7]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.09.08:028][  7]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.09.08:028][  7]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.09.08:029][  7]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.09.08:029][  7]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.09.08:029][  7]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.09.08:029][  7]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.09.08:029][  7]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.09.08:029][  7]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.09.08:029][  7]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.09.08:030][  7]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.09.08:030][  7]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.09.08:030][  7]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.09.08:031][  7]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.09.08:031][  7]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.09.08:031][  7]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.09.08:031][  7]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.09.08:031][  7]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.09.08:032][  7]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.09.08:032][  7]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.09.08:032][  7]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.09.08:032][  7]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.09.08:033][  7]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.09.08:033][  7]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.09.08:033][  7]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.09.08:034][  7]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.09.08:034][  7]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.09.08:034][  7]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.09.08:034][  7]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.09.08:034][  7]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.09.08:035][  7]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.09.08:035][  7]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.09.08:035][  7]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.09.08:035][  7]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.09.08:035][  7]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.09.08:036][  7]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.09.08:036][  7]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.09.08:036][  7]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.09.08:036][  7]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.09.08:036][  7]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.09.08:037][  7]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.09.08:037][  7]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.09.08:037][  7]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.09.08:037][  7]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.09.08:037][  7]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.09.08:038][  7]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.09.08:038][  7]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.09.08:038][  7]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.09.08:038][  7]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.09.08:038][  7]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.09.08:039][  7]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.09.08:039][  7]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.09.08:039][  7]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.09.08:039][  7]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.09.08:039][  7]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.09.08:040][  7]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.09.08:040][  7]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.09.08:066][  7]LogTexture:Display: Building textures: Texture2D_0 (BGRA8)
+[2016.07.13-11.09.08:111][  8]Cmd: UpdateLandscapeEditorData
+[2016.07.13-11.09.35:706][700]LogRenderer: Reallocating scene render targets to support 748x400 (Frame:5446).
+[2016.07.13-11.09.35:743][701]LogRenderer: Reallocating scene render targets to support 748x436 (Frame:5448).
+[2016.07.13-11.09.35:811][702]LogRenderer: Reallocating scene render targets to support 748x452 (Frame:5450).
+[2016.07.13-11.09.35:847][703]LogRenderer: Reallocating scene render targets to support 748x468 (Frame:5452).
+[2016.07.13-11.09.52:708][164]LogMaterial: Missing cached shader map for material TestLandscapeMat, compiling. 
+[2016.07.13-11.09.52:862][164]LogMaterial: Missing cached shader map for material TestLandscapeMat, compiling. 
+[2016.07.13-11.09.52:868][164]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.09.59:853][171]LogSavePackage: Save=309.25ms
+[2016.07.13-11.09.59:853][171]LogSavePackage: Moving '../../../../../../Users/MSI/Desktop/WitnessUnrealRepo/VRExp41202/Saved/TestLandscapeMat716E06304DF87776F2F68AB400925601.tmp' to '../../../../../../Users/MSI/Desktop/WitnessUnrealRepo/VRExp41202/Content/Maps/TestLandscapeMat.umap'
+[2016.07.13-11.09.59:854][171]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MSI/Desktop/WitnessUnrealRepo/VRExp41202/Content/Maps/TestLandscapeMat.umap
+[2016.07.13-11.09.59:878][171]LogFileHelpers: Saving map 'TestLandscapeMat' took 0.973
+[2016.07.13-11.10.00:039][171]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WorkBench/TestLandscapeMat" FILE="../../../../../../Users/MSI/Desktop/WitnessUnrealRepo/VRExp41202/Content/WorkBench/TestLandscapeMat.uasset" SILENT=true
+[2016.07.13-11.10.00:054][171]LogSavePackage: Save=12.67ms
+[2016.07.13-11.10.00:054][171]LogSavePackage: Moving '../../../../../../Users/MSI/Desktop/WitnessUnrealRepo/VRExp41202/Saved/TestLandscapeMat4C3AC45E4ECFE4AFB586B6BF62A8BAF1.tmp' to '../../../../../../Users/MSI/Desktop/WitnessUnrealRepo/VRExp41202/Content/WorkBench/TestLandscapeMat.uasset'
+[2016.07.13-11.10.00:055][171]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MSI/Desktop/WitnessUnrealRepo/VRExp41202/Content/WorkBench/TestLandscapeMat.uasset
+[2016.07.13-11.10.00:111][171]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2016.07.13-11.10.00:111][171]MaterialEditorStats: Info Vertex shader: 32 instructions
+[2016.07.13-11.10.00:111][171]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.07.13-11.10.09:290][265]LogMaterial: Missing cached shader map for material TestLandscapeMat, compiling. 
+[2016.07.13-11.10.09:296][265]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.10.10:080][278]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2016.07.13-11.10.10:080][278]MaterialEditorStats: Info Vertex shader: 32 instructions
+[2016.07.13-11.10.10:080][278]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.07.13-11.10.13:048][312]LogMaterial: Missing cached shader map for material TestLandscapeMat, compiling. 
+[2016.07.13-11.10.13:054][312]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.10.13:800][321]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2016.07.13-11.10.13:800][321]MaterialEditorStats: Info Vertex shader: 32 instructions
+[2016.07.13-11.10.13:800][321]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.07.13-11.10.16:408][355]LogMaterial: Missing cached shader map for material TestLandscapeMat, compiling. 
+[2016.07.13-11.10.16:415][355]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.10.17:189][364]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2016.07.13-11.10.17:189][364]MaterialEditorStats: Info Vertex shader: 32 instructions
+[2016.07.13-11.10.17:189][364]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.07.13-11.10.27:169][499]LogMaterial: Missing cached shader map for material TestLandscapeMat, compiling. 
+[2016.07.13-11.10.27:175][499]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.10.27:898][511]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2016.07.13-11.10.27:898][511]MaterialEditorStats: Info Vertex shader: 32 instructions
+[2016.07.13-11.10.27:898][511]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.07.13-11.10.31:307][549]LogMaterial: Missing cached shader map for material TestLandscapeMat, compiling. 
+[2016.07.13-11.10.31:313][549]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.10.32:067][559]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2016.07.13-11.10.32:067][559]MaterialEditorStats: Info Vertex shader: 32 instructions
+[2016.07.13-11.10.32:067][559]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.07.13-11.10.41:208][669]LogMaterial: Missing cached shader map for material TestLandscapeMat, compiling. 
+[2016.07.13-11.10.41:213][669]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.10.41:214][669]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.13-11.10.42:009][681]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2016.07.13-11.10.42:009][681]MaterialEditorStats: Info Vertex shader: 32 instructions
+[2016.07.13-11.10.42:009][681]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.07.13-11.10.50:086][764]LogMaterial: Missing cached shader map for material TestLandscapeMat, compiling. 
+[2016.07.13-11.10.50:093][764]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.10.50:118][764]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.13-11.10.51:073][775]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2016.07.13-11.10.51:073][775]MaterialEditorStats: Info Vertex shader: 32 instructions
+[2016.07.13-11.10.51:073][775]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.07.13-11.10.57:746][843]LogMaterial: Missing cached shader map for material TestLandscapeMat, compiling. 
+[2016.07.13-11.10.57:751][843]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.10.57:755][843]LogMaterial: Missing cached shader map for material TestLandscapeMat, compiling. 
+[2016.07.13-11.10.57:760][843]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.10.58:552][856]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2016.07.13-11.10.58:552][856]MaterialEditorStats: Info Vertex shader: 32 instructions
+[2016.07.13-11.10.58:552][856]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.07.13-11.11.01:247][885]LogMaterial: Missing cached shader map for material TestLandscapeMat, compiling. 
+[2016.07.13-11.11.01:253][885]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.11.02:074][894]LogMaterial: Missing cached shader map for material TestLandscapeMat, compiling. 
+[2016.07.13-11.11.02:080][894]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.11.02:867][905]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2016.07.13-11.11.02:867][905]MaterialEditorStats: Info Vertex shader: 32 instructions
+[2016.07.13-11.11.02:867][905]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.07.13-11.11.03:800][916]LogMaterial: Missing cached shader map for material TestLandscapeMat, compiling. 
+[2016.07.13-11.11.03:806][916]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.11.04:595][925]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2016.07.13-11.11.04:595][925]MaterialEditorStats: Info Vertex shader: 32 instructions
+[2016.07.13-11.11.04:595][925]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.07.13-11.11.15:356][ 46]LogMaterial: Missing cached shader map for material TestLandscapeMat, compiling. 
+[2016.07.13-11.11.15:361][ 46]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.11.16:148][ 57]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2016.07.13-11.11.16:148][ 57]MaterialEditorStats: Info Vertex shader: 32 instructions
+[2016.07.13-11.11.16:148][ 57]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.07.13-11.11.21:069][116]LogMaterial: Missing cached shader map for material TestLandscapeMat, compiling. 
+[2016.07.13-11.11.21:078][116]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.11.22:191][131]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2016.07.13-11.11.22:191][131]MaterialEditorStats: Info Vertex shader: 32 instructions
+[2016.07.13-11.11.22:191][131]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.07.13-11.11.25:551][169]LogMaterial: Missing cached shader map for material TestLandscapeMat, compiling. 
+[2016.07.13-11.11.25:559][169]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.11.25:587][169]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2016.07.13-11.11.25:593][169]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2016.07.13-11.11.26:699][184]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2016.07.13-11.11.26:699][184]MaterialEditorStats: Info Vertex shader: 32 instructions
+[2016.07.13-11.11.26:699][184]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.07.13-11.11.34:609][277]LogMaterial: Missing cached shader map for material TestLandscapeMat, compiling. 
+[2016.07.13-11.11.34:618][277]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.11.34:671][277]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2016.07.13-11.11.34:676][277]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2016.07.13-11.11.35:721][291]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2016.07.13-11.11.35:721][291]MaterialEditorStats: Info Vertex shader: 32 instructions
+[2016.07.13-11.11.35:721][291]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.07.13-11.11.39:644][330]LogMaterial: Missing cached shader map for material TestLandscapeMat, compiling. 
+[2016.07.13-11.11.39:652][330]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.11.39:680][330]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2016.07.13-11.11.40:723][344]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2016.07.13-11.11.40:723][344]MaterialEditorStats: Info Vertex shader: 32 instructions
+[2016.07.13-11.11.40:723][344]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.07.13-11.11.52:824][496]LogMaterial: Missing cached shader map for material TestLandscapeMat, compiling. 
+[2016.07.13-11.11.52:833][496]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.11.53:891][513]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2016.07.13-11.11.53:891][513]MaterialEditorStats: Info Vertex shader: 32 instructions
+[2016.07.13-11.11.53:891][513]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.07.13-11.11.55:726][539]LogMaterial: Missing cached shader map for material TestLandscapeMat, compiling. 
+[2016.07.13-11.11.55:734][539]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.11.56:780][556]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2016.07.13-11.11.56:780][556]MaterialEditorStats: Info Vertex shader: 32 instructions
+[2016.07.13-11.11.56:780][556]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.07.13-11.11.58:609][574]LogMaterial: Missing cached shader map for material TestLandscapeMat, compiling. 
+[2016.07.13-11.11.58:618][574]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.11.59:734][590]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2016.07.13-11.11.59:734][590]MaterialEditorStats: Info Vertex shader: 32 instructions
+[2016.07.13-11.11.59:734][590]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.07.13-11.12.04:607][683]LogMaterialEditor: Applying material TestLandscapeMat
+[2016.07.13-11.12.04:951][683]LogMaterial: Missing cached shader map for material TestLandscapeMat, compiling. 
+[2016.07.13-11.12.04:971][683]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.05:047][683]LogMaterial: Missing cached shader map for material TestLandscapeMat, compiling. 
+[2016.07.13-11.12.05:097][683]LogMaterial: Missing cached shader map for material TestLandscapeMat, compiling. 
+[2016.07.13-11.12.05:131][683]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.08:185][761]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 58 instructions
+[2016.07.13-11.12.08:185][761]MaterialEditorStats: Info Vertex shader: 42 instructions
+[2016.07.13-11.12.08:185][761]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.07.13-11.12.16:711][919]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.16:716][919]LogMaterial:Warning: Material /Game/WorkBench/TestLandscapeMat.TestLandscapeMat needed to have new flag set bUsedWithLandscape !
+[2016.07.13-11.12.16:717][919]LogMaterial:Warning: Material /Engine/Transient.TestLandscapeMat needed to have new flag set bUsedWithLandscape !
+[2016.07.13-11.12.16:721][919]LogMaterial: Missing cached shader map for material TestLandscapeMat, compiling. 
+[2016.07.13-11.12.16:732][919]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.16:735][919]LogMaterial: Missing cached shader map for material TestLandscapeMat, compiling. 
+[2016.07.13-11.12.16:806][919]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.16:806][919]LogMaterial:Warning: Material /Game/WorkBench/TestLandscapeMat.TestLandscapeMat needed to have new flag set bUsedWithStaticLighting !
+[2016.07.13-11.12.16:806][919]LogMaterial:Warning: Material /Engine/Transient.TestLandscapeMat needed to have new flag set bUsedWithStaticLighting !
+[2016.07.13-11.12.16:812][919]LogMaterial: Missing cached shader map for material TestLandscapeMat, compiling. 
+[2016.07.13-11.12.16:837][919]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.16:840][919]LogMaterial: Missing cached shader map for material TestLandscapeMat, compiling. 
+[2016.07.13-11.12.16:953][919]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.16:953][919]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.16:954][919]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.16:954][919]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.16:954][919]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.16:954][919]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.16:955][919]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.16:955][919]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.16:955][919]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.16:956][919]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.16:956][919]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.16:957][919]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.16:957][919]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.16:958][919]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.16:958][919]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.16:959][919]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.16:959][919]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.16:960][919]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.16:960][919]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.16:961][919]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.16:961][919]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.16:962][919]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.16:963][919]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.16:963][919]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.16:964][919]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.16:964][919]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.16:964][919]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.16:965][919]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.16:965][919]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.16:966][919]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.16:967][919]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.16:967][919]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.16:968][919]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.16:969][919]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.16:969][919]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.16:970][919]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.16:970][919]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.16:971][919]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.16:971][919]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.16:972][919]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.16:973][919]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.16:973][919]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.16:974][919]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.16:975][919]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.16:975][919]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.16:976][919]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.16:977][919]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.16:978][919]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.16:979][919]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.16:979][919]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.16:980][919]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.16:981][919]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.16:981][919]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.16:982][919]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.16:983][919]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.16:984][919]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.16:985][919]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.16:986][919]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.16:986][919]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.16:987][919]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.16:988][919]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.16:988][919]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.16:989][919]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.16:990][919]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.16:991][919]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.17:003][920]Cmd: UpdateLandscapeEditorData
+[2016.07.13-11.12.17:011][920]LogMaterial: Missing cached shader map for material TestLandscapeMat, compiling. 
+[2016.07.13-11.12.17:116][920]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 1 with static permutations.
+[2016.07.13-11.12.17:125][920]LogMaterial: Missing cached shader map for material TestLandscapeMat, compiling. 
+[2016.07.13-11.12.17:218][920]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 1 with static permutations.
+[2016.07.13-11.12.17:219][920]Cmd: UpdateLandscapeMIC
+[2016.07.13-11.12.17:224][920]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.17:226][920]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.17:227][920]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.17:228][920]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.17:228][920]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.17:229][920]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.17:230][920]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.17:231][920]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.17:232][920]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.17:233][920]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.17:234][920]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.17:235][920]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.17:237][920]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.17:237][920]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.17:239][920]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.17:240][920]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.17:240][920]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.17:241][920]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.17:242][920]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.17:243][920]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.17:243][920]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.17:244][920]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.17:245][920]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.17:246][920]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.17:246][920]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.17:247][920]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.17:248][920]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.17:249][920]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.17:249][920]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.17:250][920]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.17:251][920]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.17:252][920]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.17:252][920]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.17:253][920]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.17:254][920]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.17:255][920]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.17:255][920]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.17:256][920]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.17:257][920]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.17:258][920]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.17:259][920]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.17:260][920]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.17:261][920]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.17:262][920]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.17:264][920]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.17:265][920]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.17:267][920]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.17:268][920]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.17:269][920]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.17:270][920]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.17:270][920]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.17:271][920]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.17:272][920]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.17:273][920]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.17:274][920]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.17:275][920]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.17:276][920]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.17:278][920]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.17:279][920]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.17:280][920]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.17:282][920]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.17:284][920]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.17:285][920]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.17:286][920]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.12.21:581][989]LogRenderer: Reallocating scene render targets to support 804x480 (Frame:9273).
+[2016.07.13-11.12.29:896][103]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2016.07.13-11.12.35:170][181]MaterialEditorStats: Info Base pass shader with static lighting: 88 instructions
+[2016.07.13-11.12.35:170][181]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 58 instructions
+[2016.07.13-11.12.35:170][181]MaterialEditorStats: Info Vertex shader: 42 instructions
+[2016.07.13-11.12.35:170][181]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.07.13-11.12.46:075][325]LogTexture:Display: Building textures: CameraActor_64x (BGRA8)
+[2016.07.13-11.12.46:365][325]LogTexture:Display: Building textures: IOS (BGRA8)
+[2016.07.13-11.12.46:397][325]LogTexture:Display: Building textures: android_Icon (BGRA8)
+[2016.07.13-11.13.39:451][381]LogTexture:Display: Building textures: Texture2D_64 (BGRA8)
+[2016.07.13-11.13.39:561][381]LogSavePackage: Save=113.04ms
+[2016.07.13-11.13.39:561][381]LogSavePackage: Moving '../../../../../../Users/MSI/Desktop/WitnessUnrealRepo/VRExp41202/Saved/TestLandscapeMatE229648A4895AD5BAE5EAFBE2F56B3D4.tmp' to '../../../../../../Users/MSI/Desktop/WitnessUnrealRepo/VRExp41202/Content/Maps/TestLandscapeMat.umap'
+[2016.07.13-11.13.39:563][381]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MSI/Desktop/WitnessUnrealRepo/VRExp41202/Content/Maps/TestLandscapeMat.umap
+[2016.07.13-11.13.39:588][381]LogFileHelpers: Saving map 'TestLandscapeMat' took 0.202
+[2016.07.13-11.13.39:700][381]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WorkBench/TestLandscapeMat" FILE="../../../../../../Users/MSI/Desktop/WitnessUnrealRepo/VRExp41202/Content/WorkBench/TestLandscapeMat.uasset" SILENT=true
+[2016.07.13-11.13.39:722][381]LogSavePackage: Save=11.67ms
+[2016.07.13-11.13.39:722][381]LogSavePackage: Moving '../../../../../../Users/MSI/Desktop/WitnessUnrealRepo/VRExp41202/Saved/TestLandscapeMatAE96230043D2587D41E54E97C225B03F.tmp' to '../../../../../../Users/MSI/Desktop/WitnessUnrealRepo/VRExp41202/Content/WorkBench/TestLandscapeMat.uasset'
+[2016.07.13-11.13.39:724][381]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MSI/Desktop/WitnessUnrealRepo/VRExp41202/Content/WorkBench/TestLandscapeMat.uasset
+[2016.07.13-11.13.39:795][381]LogSavePackage: Save=3.32ms
+[2016.07.13-11.13.39:795][381]LogSavePackage: Moving '../../../../../../Users/MSI/Desktop/WitnessUnrealRepo/VRExp41202/Saved/hurr_LayerInfoFBD94B764E94EDEE7FD325A759BBB913.tmp' to '../../../../../../Users/MSI/Desktop/WitnessUnrealRepo/VRExp41202/Content/Maps/TestLandscapeMat_sharedassets/hurr_LayerInfo.uasset'
+[2016.07.13-11.13.39:796][381]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MSI/Desktop/WitnessUnrealRepo/VRExp41202/Content/Maps/TestLandscapeMat_sharedassets/hurr_LayerInfo.uasset
+[2016.07.13-11.13.39:893][381]LogSavePackage: Save=2.98ms
+[2016.07.13-11.13.39:893][381]LogSavePackage: Moving '../../../../../../Users/MSI/Desktop/WitnessUnrealRepo/VRExp41202/Saved/durr_LayerInfoFE5D67D84AA83730BA7738A338BEA13D.tmp' to '../../../../../../Users/MSI/Desktop/WitnessUnrealRepo/VRExp41202/Content/Maps/TestLandscapeMat_sharedassets/durr_LayerInfo.uasset'
+[2016.07.13-11.13.39:895][381]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MSI/Desktop/WitnessUnrealRepo/VRExp41202/Content/Maps/TestLandscapeMat_sharedassets/durr_LayerInfo.uasset
+[2016.07.13-11.13.51:105][670]LogMaterial: Missing cached shader map for material TestLandscapeMat, compiling. 
+[2016.07.13-11.13.51:115][670]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.13.51:141][670]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2016.07.13-11.13.52:729][720]MaterialEditorStats: Info Base pass shader with static lighting: 51 instructions
+[2016.07.13-11.13.52:729][720]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2016.07.13-11.13.52:729][720]MaterialEditorStats: Info Vertex shader: 32 instructions
+[2016.07.13-11.13.52:729][720]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.07.13-11.13.52:865][723]LogMaterial: Missing cached shader map for material TestLandscapeMat, compiling. 
+[2016.07.13-11.13.52:875][723]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.13.52:902][723]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2016.07.13-11.13.54:226][764]MaterialEditorStats: Info Base pass shader with static lighting: 51 instructions
+[2016.07.13-11.13.54:226][764]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2016.07.13-11.13.54:226][764]MaterialEditorStats: Info Vertex shader: 32 instructions
+[2016.07.13-11.13.54:226][764]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.07.13-11.13.56:201][815]LogMaterialEditor: Applying material TestLandscapeMat
+[2016.07.13-11.13.56:539][815]LogMaterial: Missing cached shader map for material TestLandscapeMat, compiling. 
+[2016.07.13-11.13.56:564][815]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.13.56:635][815]LogMaterial: Missing cached shader map for material TestLandscapeMat, compiling. 
+[2016.07.13-11.13.56:741][815]LogMaterial: Missing cached shader map for material TestLandscapeMat, compiling. 
+[2016.07.13-11.13.56:832][815]LogMaterial: Missing cached shader map for material TestLandscapeMat, compiling. 
+[2016.07.13-11.13.56:918][815]LogMaterial: Missing cached shader map for material TestLandscapeMat, compiling. 
+[2016.07.13-11.13.57:007][815]LogMaterial: 0.18 seconds spent updating 1 materials, 1 interfaces, 0 instances, 2 with static permutations.
+[2016.07.13-11.14.01:302][891]LogMaterial: Missing cached shader map for material TestLandscapeMat, compiling. 
+[2016.07.13-11.14.01:317][891]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.14.02:744][909]LogMaterialEditor: Applying material TestLandscapeMat
+[2016.07.13-11.14.03:307][909]LogMaterial: Missing cached shader map for material TestLandscapeMat, compiling. 
+[2016.07.13-11.14.03:349][909]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.14.03:481][909]LogMaterial: Missing cached shader map for material TestLandscapeMat, compiling. 
+[2016.07.13-11.14.03:612][909]LogMaterial: Missing cached shader map for material TestLandscapeMat, compiling. 
+[2016.07.13-11.14.03:711][909]LogMaterial: Missing cached shader map for material TestLandscapeMat, compiling. 
+[2016.07.13-11.14.03:813][909]LogMaterial: Missing cached shader map for material TestLandscapeMat, compiling. 
+[2016.07.13-11.14.03:907][909]LogMaterial: 0.20 seconds spent updating 1 materials, 1 interfaces, 0 instances, 2 with static permutations.
+[2016.07.13-11.14.16:352][ 89]LogTexture:Display: Building textures: Texture2D_65 (BGRA8)
+[2016.07.13-11.14.16:353][ 89]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.14.16:355][ 89]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.14.23:769][185]LogMaterial: Missing cached shader map for material TestLandscapeMat, compiling. 
+[2016.07.13-11.14.23:788][185]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.14.26:076][217]MaterialEditorStats: Info Base pass shader with static lighting: 51 instructions
+[2016.07.13-11.14.26:076][217]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2016.07.13-11.14.26:076][217]MaterialEditorStats: Info Vertex shader: 32 instructions
+[2016.07.13-11.14.26:076][217]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.07.13-11.14.37:631][351]LogMaterial: Missing cached shader map for material TestLandscapeMat, compiling. 
+[2016.07.13-11.14.37:648][351]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.14.37:673][351]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2016.07.13-11.14.39:897][381]MaterialEditorStats: Info Base pass shader with static lighting: 51 instructions
+[2016.07.13-11.14.39:898][381]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2016.07.13-11.14.39:898][381]MaterialEditorStats: Info Vertex shader: 32 instructions
+[2016.07.13-11.14.39:898][381]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.07.13-11.14.43:419][422]LogMaterial: Missing cached shader map for material TestLandscapeMat, compiling. 
+[2016.07.13-11.14.43:445][422]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.14.46:178][440]MaterialEditorStats: Info Base pass shader with static lighting: 51 instructions
+[2016.07.13-11.14.46:178][440]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2016.07.13-11.14.46:178][440]MaterialEditorStats: Info Vertex shader: 32 instructions
+[2016.07.13-11.14.46:178][440]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.07.13-11.14.52:832][593]LogMaterial: Missing cached shader map for material TestLandscapeMat, compiling. 
+[2016.07.13-11.14.52:849][593]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.14.55:160][646]LogMaterial: Missing cached shader map for material TestLandscapeMat, compiling. 
+[2016.07.13-11.14.55:176][646]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.14.58:090][706]LogMaterial: Missing cached shader map for material TestLandscapeMat, compiling. 
+[2016.07.13-11.14.58:111][706]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.15.00:485][770]MaterialEditorStats: Info Base pass shader with static lighting: 51 instructions
+[2016.07.13-11.15.00:485][770]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2016.07.13-11.15.00:485][770]MaterialEditorStats: Info Vertex shader: 32 instructions
+[2016.07.13-11.15.00:485][770]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.07.13-11.15.10:293][ 71]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2016.07.13-11.15.10:350][ 71]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2016.07.13-11.15.10:843][ 87]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2016.07.13-11.15.11:868][102]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.15.23:288][449]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.15.23:484][455]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape)
+[2016.07.13-11.15.40:378][968]LogTexture:Display: Building textures: Texture2D_66 (BGRA8)
+[2016.07.13-11.15.40:379][968]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.15.40:739][979]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.15.40:740][979]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.15.41:693][  8]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape)
+[2016.07.13-11.15.43:667][ 68]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape)
+[2016.07.13-11.15.43:866][ 74]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.15.44:622][ 97]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape)
+[2016.07.13-11.15.45:149][113]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape)
+[2016.07.13-11.15.45:361][120]LogTexture:Display: Building textures: Texture2D_67 (BGRA8)
+[2016.07.13-11.15.45:380][120]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.15.45:545][125]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.15.45:546][125]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.15.45:547][125]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.15.46:269][147]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.15.49:066][232]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.15.49:067][232]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.15.49:099][233]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.15.50:349][267]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape)
+[2016.07.13-11.15.50:517][272]LogTexture:Display: Building textures: Texture2D_68 (BGRA8)
+[2016.07.13-11.15.50:518][272]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.15.50:519][272]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.15.50:519][272]LogTexture:Display: Building textures: Texture2D_69 (BGRA8)
+[2016.07.13-11.15.50:520][272]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.15.50:547][273]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.15.50:942][285]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape)
+[2016.07.13-11.15.51:174][292]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.15.51:239][294]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.15.51:239][294]LogTexture:Display: Building textures: Texture2D_70 (BGRA8)
+[2016.07.13-11.15.51:240][294]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.15.51:866][313]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.15.53:379][359]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape)
+[2016.07.13-11.16.00:739][570]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.16.00:740][570]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.16.00:743][570]LogTexture:Display: Building textures: Texture2D_71 (BGRA8)
+[2016.07.13-11.16.00:743][570]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.16.00:756][570]LogEditorViewport: Clicking Background
+[2016.07.13-11.16.00:761][571]Cmd: UpdateLandscapeEditorData
+[2016.07.13-11.16.02:583][626]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.16.02:584][626]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.16.02:584][626]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.16.09:806][845]LogTexture:Display: Building textures: Texture2D_72 (BGRA8)
+[2016.07.13-11.16.09:807][845]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.16.09:808][845]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.16.16:908][ 62]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2016.07.13-11.16.24:263][265]LogMaterial: Missing cached shader map for material TestLandscapeMat, compiling. 
+[2016.07.13-11.16.24:313][265]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 1 with static permutations.
+[2016.07.13-11.16.24:316][265]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.16.24:318][265]LogTexture:Display: Building textures: Texture2D_73 (BGRA8)
+[2016.07.13-11.16.24:319][265]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.16.24:695][277]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.16.24:696][277]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.16.30:447][378]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.16.30:448][378]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.16.31:832][400]LogTexture:Display: Building textures: Texture2D_74 (BGRA8)
+[2016.07.13-11.16.31:890][400]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.16.31:891][400]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.16.32:350][407]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.16.32:352][407]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.16.32:353][407]LogTexture:Display: Building textures: Texture2D_75 (BGRA8)
+[2016.07.13-11.16.32:354][407]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.16.34:422][436]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.16.34:423][436]LogTexture:Display: Building textures: Texture2D_76 (BGRA8)
+[2016.07.13-11.16.34:424][436]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.16.44:139][730]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape)
+[2016.07.13-11.16.47:134][821]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape)
+[2016.07.13-11.16.47:794][841]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.16.48:220][854]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape)
+[2016.07.13-11.16.49:274][886]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape)
+[2016.07.13-11.16.54:717][ 51]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.16.54:718][ 51]LogTexture:Display: Building textures: Texture2D_77 (BGRA8)
+[2016.07.13-11.16.54:719][ 51]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.16.57:768][144]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.16.57:769][144]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.16.57:769][144]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.16.59:217][188]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.17.00:211][216]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.17.00:243][217]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.17.00:244][217]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.17.00:277][218]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.17.00:277][218]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.17.01:166][245]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.17.01:166][245]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.17.01:230][247]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.17.01:233][247]LogTexture:Display: Building textures: Texture2D_78 (BGRA8)
+[2016.07.13-11.17.01:233][247]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.17.01:234][247]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.17.01:330][250]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.17.01:903][268]LogTexture:Display: Building textures: Texture2D_79 (BGRA8)
+[2016.07.13-11.17.01:922][268]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.17.02:712][292]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.17.24:243][935]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere)
+[2016.07.13-11.17.29:701][ 53]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.17.49:029][628]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.07.13-11.17.49:030][628]PIE: New page: PIE session: TestLandscapeMat (Jul 13, 2016, 2:17:49 PM)
+[2016.07.13-11.17.49:030][628]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestLandscapeMat
+[2016.07.13-11.17.49:039][628]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009508s)
+[2016.07.13-11.17.49:040][628]LogAIModule: Creating AISystem for world TestLandscapeMat
+[2016.07.13-11.17.49:040][628]LogPlayLevel: PIE: World Init took: (0.000629s)
+[2016.07.13-11.17.49:040][628]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestLandscapeMat.TestLandscapeMat to /Game/Maps/UEDPIE_0_TestLandscapeMat.TestLandscapeMat (0.010306s)
+[2016.07.13-11.17.49:086][628]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.07.13-11.17.49:106][628]LogInit: FAudioDevice initialized.
+[2016.07.13-11.17.49:156][628]LogWorld: Game class is 'GameMode'
+[2016.07.13-11.17.49:164][628]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestLandscapeMat.TestLandscapeMat up for play (max tick rate 60) at 2016.07.13-13.17.49
+[2016.07.13-11.17.49:164][628]LogWorld: Bringing up level for play took: 0.006348
+[2016.07.13-11.17.49:166][628]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.07.13-11.17.49:168][628]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TestLandscapeMat -0.069
+[2016.07.13-11.18.08:473][214]Set new viewmode: ShaderComplexity
+[2016.07.13-11.18.09:867][284]Set new viewmode: Unlit
+[2016.07.13-11.18.10:353][303]Set new viewmode: Wireframe
+[2016.07.13-11.18.10:880][319]Set new viewmode: Unlit
+[2016.07.13-11.18.11:307][332]Set new viewmode: Wireframe
+[2016.07.13-11.18.12:097][356]Set new viewmode: Lit
+[2016.07.13-11.18.12:755][376]Error: view mode not recognized: detaillighting
+[2016.07.13-11.18.13:480][398]Set new viewmode: Unlit
+[2016.07.13-11.18.13:913][411]Set new viewmode: Wireframe
+[2016.07.13-11.18.14:645][433]Set new viewmode: Lit
+[2016.07.13-11.18.14:976][443]Error: view mode not recognized: detaillighting
+[2016.07.13-11.18.15:275][452]Set new viewmode: ShaderComplexity
+[2016.07.13-11.18.16:791][531]Set new viewmode: Unlit
+[2016.07.13-11.18.17:463][555]Set new viewmode: Wireframe
+[2016.07.13-11.18.25:474][796]Error: view mode not recognized: detaillighting
+[2016.07.13-11.18.26:073][814]Set new viewmode: Lit
+[2016.07.13-11.18.26:535][828]Set new viewmode: Unlit
+[2016.07.13-11.18.27:397][868]Set new viewmode: Wireframe
+[2016.07.13-11.18.27:947][901]Set new viewmode: Unlit
+[2016.07.13-11.18.28:480][933]Set new viewmode: Unlit
+[2016.07.13-11.18.28:797][952]Set new viewmode: Lit
+[2016.07.13-11.18.29:330][972]Error: view mode not recognized: detaillighting
+[2016.07.13-11.18.29:857][988]Set new viewmode: Unlit
+[2016.07.13-11.18.30:252][  0]Set new viewmode: Wireframe
+[2016.07.13-11.19.23:602][932]LogMaterial: Missing cached shader map for material TestLandscapeMat, compiling. 
+[2016.07.13-11.19.23:612][932]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.19.25:292][974]MaterialEditorStats: Info Base pass shader with static lighting: 51 instructions
+[2016.07.13-11.19.25:292][974]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2016.07.13-11.19.25:292][974]MaterialEditorStats: Info Vertex shader: 32 instructions
+[2016.07.13-11.19.25:292][974]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.07.13-11.19.26:359][989]LogMaterial: Missing cached shader map for material TestLandscapeMat, compiling. 
+[2016.07.13-11.19.26:369][989]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.13-11.19.27:690][ 29]MaterialEditorStats: Info Base pass shader with static lighting: 51 instructions
+[2016.07.13-11.19.27:690][ 29]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2016.07.13-11.19.27:690][ 29]MaterialEditorStats: Info Vertex shader: 32 instructions
+[2016.07.13-11.19.27:690][ 29]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.07.13-11.19.31:159][ 43]Cmd: QUIT_EDITOR
+[2016.07.13-11.19.32:184][ 43]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.07.13-11.19.32:207][ 43]LogExit: Preparing to exit.
+[2016.07.13-11.19.32:757][ 43]LogExit: Editor shut down
+[2016.07.13-11.19.32:757][ 43]LogExit: Transaction tracking system shut down
+[2016.07.13-11.19.33:148][ 43]LogObj: Freed 0b from 0 cluster array pools.
+[2016.07.13-11.19.33:148][ 43]LogExit: Object subsystem successfully closed.
+[2016.07.13-11.19.33:161][ 43]LogD3D11RHI: Shutdown
+[2016.07.13-11.19.33:161][ 43]LogD3D11RHI: CleanupD3DDevice
+[2016.07.13-11.19.33:221][ 43]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.07.13-11.19.33:233][ 43]LogModuleManager: Shutting down and abandoning module MaterialEditor (217)
+[2016.07.13-11.19.33:233][ 43]LogModuleManager: Shutting down and abandoning module NewLevelDialog (216)
+[2016.07.13-11.19.33:233][ 43]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (215)
+[2016.07.13-11.19.33:234][ 43]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (214)
+[2016.07.13-11.19.33:234][ 43]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (213)
+[2016.07.13-11.19.33:234][ 43]LogModuleManager: Shutting down and abandoning module CrashTracker (212)
+[2016.07.13-11.19.33:234][ 43]LogModuleManager: Shutting down and abandoning module SceneOutliner (211)
+[2016.07.13-11.19.33:234][ 43]LogModuleManager: Shutting down and abandoning module WidgetCarousel (210)
+[2016.07.13-11.19.33:234][ 43]LogModuleManager: Shutting down and abandoning module AddContentDialog (209)
+[2016.07.13-11.19.33:235][ 43]LogModuleManager: Shutting down and abandoning module GameplayTags (208)
+[2016.07.13-11.19.33:235][ 43]LogModuleManager: Shutting down and abandoning module EditorWidgets (207)
+[2016.07.13-11.19.33:235][ 43]LogModuleManager: Shutting down and abandoning module CollectionManager (206)
+[2016.07.13-11.19.33:235][ 43]LogModuleManager: Shutting down and abandoning module StatsViewer (205)
+[2016.07.13-11.19.33:235][ 43]LogModuleManager: Shutting down and abandoning module FoliageEdit (204)
+[2016.07.13-11.19.33:235][ 43]LogModuleManager: Shutting down and abandoning module LandscapeEditor (203)
+[2016.07.13-11.19.33:235][ 43]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (202)
+[2016.07.13-11.19.33:235][ 43]LogModuleManager: Shutting down and abandoning module ActorPickerMode (201)
+[2016.07.13-11.19.33:235][ 43]LogModuleManager: Shutting down and abandoning module GeometryMode (200)
+[2016.07.13-11.19.33:235][ 43]LogModuleManager: Shutting down and abandoning module TextureAlignMode (199)
+[2016.07.13-11.19.33:235][ 43]LogModuleManager: Shutting down and abandoning module BspMode (198)
+[2016.07.13-11.19.33:235][ 43]LogModuleManager: Shutting down and abandoning module HardwareSurvey (197)
+[2016.07.13-11.19.33:235][ 43]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (196)
+[2016.07.13-11.19.33:235][ 43]LogModuleManager: Shutting down and abandoning module SequenceRecorder (195)
+[2016.07.13-11.19.33:235][ 43]LogModuleManager: Shutting down and abandoning module AutomationWorker (194)
+[2016.07.13-11.19.33:235][ 43]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (193)
+[2016.07.13-11.19.33:236][ 43]LogModuleManager: Shutting down and abandoning module PlacementMode (192)
+[2016.07.13-11.19.33:236][ 43]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (191)
+[2016.07.13-11.19.33:236][ 43]LogModuleManager: Shutting down and abandoning module CharacterAI (190)
+[2016.07.13-11.19.33:236][ 43]LogModuleManager: Shutting down and abandoning module SmartSnapping (189)
+[2016.07.13-11.19.33:236][ 43]LogModuleManager: Shutting down and abandoning module SessionServices (188)
+[2016.07.13-11.19.33:236][ 43]LogModuleManager: Shutting down and abandoning module ViewportSnapping (187)
+[2016.07.13-11.19.33:236][ 43]LogModuleManager: Shutting down and abandoning module LogVisualizer (186)
+[2016.07.13-11.19.33:236][ 43]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (185)
+[2016.07.13-11.19.33:237][ 43]LogModuleManager: Shutting down and abandoning module IntroTutorials (184)
+[2016.07.13-11.19.33:237][ 43]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (183)
+[2016.07.13-11.19.33:237][ 43]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (182)
+[2016.07.13-11.19.33:237][ 43]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (181)
+[2016.07.13-11.19.33:237][ 43]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (180)
+[2016.07.13-11.19.34:184][ 43]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (179)
+[2016.07.13-11.19.34:184][ 43]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (178)
+[2016.07.13-11.19.34:184][ 43]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (177)
+[2016.07.13-11.19.34:184][ 43]LogModuleManager: Shutting down and abandoning module MergeActors (176)
+[2016.07.13-11.19.34:186][ 43]LogModuleManager: Shutting down and abandoning module SizeMap (175)
+[2016.07.13-11.19.34:186][ 43]LogModuleManager: Shutting down and abandoning module TreeMap (174)
+[2016.07.13-11.19.34:186][ 43]LogModuleManager: Shutting down and abandoning module ReferenceViewer (173)
+[2016.07.13-11.19.34:186][ 43]LogModuleManager: Shutting down and abandoning module LocalizationService (172)
+[2016.07.13-11.19.34:186][ 43]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (171)
+[2016.07.13-11.19.34:188][ 43]LogModuleManager: Shutting down and abandoning module HardwareTargeting (170)
+[2016.07.13-11.19.34:188][ 43]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (169)
+[2016.07.13-11.19.34:188][ 43]LogModuleManager: Shutting down and abandoning module UndoHistory (168)
+[2016.07.13-11.19.34:188][ 43]LogModuleManager: Shutting down and abandoning module UserFeedback (167)
+[2016.07.13-11.19.34:188][ 43]LogModuleManager: Shutting down and abandoning module XmlParser (166)
+[2016.07.13-11.19.34:188][ 43]LogModuleManager: Shutting down and abandoning module Blutility (165)
+[2016.07.13-11.19.34:188][ 43]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (164)
+[2016.07.13-11.19.34:188][ 43]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (163)
+[2016.07.13-11.19.34:188][ 43]LogModuleManager: Shutting down and abandoning module InputBindingEditor (162)
+[2016.07.13-11.19.34:188][ 43]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (161)
+[2016.07.13-11.19.34:188][ 43]LogModuleManager: Shutting down and abandoning module SettingsEditor (160)
+[2016.07.13-11.19.34:189][ 43]LogModuleManager: Shutting down and abandoning module ProjectLauncher (159)
+[2016.07.13-11.19.34:189][ 43]LogModuleManager: Shutting down and abandoning module SessionFrontend (158)
+[2016.07.13-11.19.34:190][ 43]LogModuleManager: Shutting down and abandoning module ProfilerClient (157)
+[2016.07.13-11.19.34:190][ 43]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (156)
+[2016.07.13-11.19.34:190][ 43]LogModuleManager: Shutting down and abandoning module DeviceManager (155)
+[2016.07.13-11.19.34:234][ 43]LogModuleManager: Shutting down and abandoning module AutomationController (154)
+[2016.07.13-11.19.34:234][ 43]LogModuleManager: Shutting down and abandoning module AutomationWindow (153)
+[2016.07.13-11.19.34:235][ 43]LogModuleManager: Shutting down and abandoning module Layers (152)
+[2016.07.13-11.19.34:236][ 43]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (151)
+[2016.07.13-11.19.34:236][ 43]LogModuleManager: Shutting down and abandoning module DetailCustomizations (150)
+[2016.07.13-11.19.34:236][ 43]LogModuleManager: Shutting down and abandoning module PackagesDialog (149)
+[2016.07.13-11.19.34:236][ 43]LogModuleManager: Shutting down and abandoning module Persona (148)
+[2016.07.13-11.19.34:236][ 43]LogModuleManager: Shutting down and abandoning module Kismet (147)
+[2016.07.13-11.19.34:237][ 43]LogModuleManager: Shutting down and abandoning module GraphEditor (146)
+[2016.07.13-11.19.34:237][ 43]LogModuleManager: Shutting down and abandoning module ClassViewer (145)
+[2016.07.13-11.19.34:237][ 43]LogModuleManager: Shutting down and abandoning module Toolbox (144)
+[2016.07.13-11.19.34:237][ 43]LogModuleManager: Shutting down and abandoning module ModuleUI (143)
+[2016.07.13-11.19.34:237][ 43]LogModuleManager: Shutting down and abandoning module MovieSceneTools (142)
+[2016.07.13-11.19.34:237][ 43]LogModuleManager: Shutting down and abandoning module OutputLog (141)
+[2016.07.13-11.19.34:237][ 43]LogModuleManager: Shutting down and abandoning module GammaUI (140)
+[2016.07.13-11.19.34:238][ 43]LogModuleManager: Shutting down and abandoning module Documentation (139)
+[2016.07.13-11.19.34:238][ 43]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (138)
+[2016.07.13-11.19.34:238][ 43]LogModuleManager: Shutting down and abandoning module AnalyticsET (137)
+[2016.07.13-11.19.34:238][ 43]LogModuleManager: Shutting down and abandoning module Analytics (136)
+[2016.07.13-11.19.34:238][ 43]LogModuleManager: Shutting down and abandoning module PortalServices (135)
+[2016.07.13-11.19.34:238][ 43]LogModuleManager: Shutting down and abandoning module PortalRpc (134)
+[2016.07.13-11.19.34:238][ 43]LogModuleManager: Shutting down and abandoning module MessagingRpc (133)
+[2016.07.13-11.19.34:238][ 43]LogModuleManager: Shutting down and abandoning module GameplayDebugger (132)
+[2016.07.13-11.19.34:238][ 43]LogModuleManager: Shutting down and abandoning module AITestSuite (131)
+[2016.07.13-11.19.34:238][ 43]LogModuleManager: Shutting down and abandoning module AIModule (130)
+[2016.07.13-11.19.34:238][ 43]LogModuleManager: Shutting down and abandoning module ProfilerService (129)
+[2016.07.13-11.19.34:477][ 43]LogModuleManager: Shutting down and abandoning module TaskGraph (128)
+[2016.07.13-11.19.34:479][ 43]LogModuleManager: Shutting down and abandoning module SlateRemote (127)
+[2016.07.13-11.19.34:479][ 43]LogModuleManager: Shutting down and abandoning module SteamVRController (126)
+[2016.07.13-11.19.34:479][ 43]LogModuleManager: Shutting down and abandoning module SteamVR (125)
+[2016.07.13-11.19.34:479][ 43]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (124)
+[2016.07.13-11.19.34:479][ 43]LogModuleManager: Shutting down and abandoning module OculusLibrary (123)
+[2016.07.13-11.19.34:479][ 43]LogModuleManager: Shutting down and abandoning module OculusInput (122)
+[2016.07.13-11.19.34:479][ 43]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (121)
+[2016.07.13-11.19.34:479][ 43]LogModuleManager: Shutting down and abandoning module CableComponent (120)
+[2016.07.13-11.19.34:479][ 43]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (119)
+[2016.07.13-11.19.34:479][ 43]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (118)
+[2016.07.13-11.19.34:479][ 43]LogModuleManager: Shutting down and abandoning module HTML5Networking (117)
+[2016.07.13-11.19.34:479][ 43]LogModuleManager: Shutting down and abandoning module SuperSearch (116)
+[2016.07.13-11.19.34:479][ 43]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (115)
+[2016.07.13-11.19.34:479][ 43]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (114)
+[2016.07.13-11.19.34:480][ 43]LogModuleManager: Shutting down and abandoning module PluginBrowser (113)
+[2016.07.13-11.19.34:480][ 43]LogModuleManager: Shutting down and abandoning module EpicSurvey (112)
+[2016.07.13-11.19.34:480][ 43]LogModuleManager: Shutting down and abandoning module DesktopPlatform (111)
+[2016.07.13-11.19.34:481][ 43]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (110)
+[2016.07.13-11.19.34:481][ 43]LogModuleManager: Shutting down and abandoning module UObjectPlugin (109)
+[2016.07.13-11.19.34:481][ 43]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (108)
+[2016.07.13-11.19.34:481][ 43]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (107)
+[2016.07.13-11.19.34:481][ 43]LogModuleManager: Shutting down and abandoning module SourceControl (106)
+[2016.07.13-11.19.34:481][ 43]LogModuleManager: Shutting down and abandoning module GitSourceControl (105)
+[2016.07.13-11.19.34:481][ 43]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (104)
+[2016.07.13-11.19.34:481][ 43]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (103)
+[2016.07.13-11.19.34:481][ 43]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (102)
+[2016.07.13-11.19.34:481][ 43]LogModuleManager: Shutting down and abandoning module MeshPaint (101)
+[2016.07.13-11.19.34:481][ 43]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (100)
+[2016.07.13-11.19.34:481][ 43]LogModuleManager: Shutting down and abandoning module HotReload (99)
+[2016.07.13-11.19.34:481][ 43]LogModuleManager: Shutting down and abandoning module MainFrame (98)
+[2016.07.13-11.19.34:481][ 43]LogModuleManager: Shutting down and abandoning module LevelEditor (97)
+[2016.07.13-11.19.34:482][ 43]LogModuleManager: Shutting down and abandoning module ContentBrowser (96)
+[2016.07.13-11.19.34:482][ 43]LogModuleManager: Shutting down and abandoning module Paper2DEditor (95)
+[2016.07.13-11.19.34:483][ 43]LogModuleManager: Shutting down and abandoning module UdpMessaging (94)
+[2016.07.13-11.19.34:583][ 43]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (93)
+[2016.07.13-11.19.34:583][ 43]LogModuleManager: Shutting down and abandoning module Paper2D (92)
+[2016.07.13-11.19.34:583][ 43]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (91)
+[2016.07.13-11.19.34:583][ 43]LogModuleManager: Shutting down and abandoning module Media (90)
+[2016.07.13-11.19.34:583][ 43]LogModuleManager: Shutting down and abandoning module WmfMedia (89)
+[2016.07.13-11.19.34:584][ 43]LogModuleManager: Shutting down and abandoning module MediaAssets (88)
+[2016.07.13-11.19.34:584][ 43]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (87)
+[2016.07.13-11.19.34:584][ 43]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (86)
+[2016.07.13-11.19.34:584][ 43]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (85)
+[2016.07.13-11.19.34:584][ 43]LogModuleManager: Shutting down and abandoning module VREditor (84)
+[2016.07.13-11.19.34:585][ 43]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (83)
+[2016.07.13-11.19.34:585][ 43]LogModuleManager: Shutting down and abandoning module PropertyEditor (82)
+[2016.07.13-11.19.34:585][ 43]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (81)
+[2016.07.13-11.19.34:586][ 43]LogModuleManager: Shutting down and abandoning module FunctionalTesting (80)
+[2016.07.13-11.19.34:586][ 43]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (79)
+[2016.07.13-11.19.34:587][ 43]LogModuleManager: Shutting down and abandoning module Sequencer (78)
+[2016.07.13-11.19.34:588][ 43]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2016.07.13-11.19.34:588][ 43]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2016.07.13-11.19.34:588][ 43]LogModuleManager: Shutting down and abandoning module AssetTools (75)
+[2016.07.13-11.19.34:588][ 43]LogModuleManager: Shutting down and abandoning module UMGEditor (74)
+[2016.07.13-11.19.34:588][ 43]LogModuleManager: Shutting down and abandoning module UMG (73)
+[2016.07.13-11.19.34:588][ 43]LogModuleManager: Shutting down and abandoning module SlateReflector (72)
+[2016.07.13-11.19.34:589][ 43]LogModuleManager: Shutting down and abandoning module Slate (71)
+[2016.07.13-11.19.34:589][ 43]LogModuleManager: Shutting down and abandoning module EditorStyle (70)
+[2016.07.13-11.19.34:590][ 43]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (69)
+[2016.07.13-11.19.34:590][ 43]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (68)
+[2016.07.13-11.19.34:590][ 43]LogModuleManager: Shutting down and abandoning module XAudio2 (67)
+[2016.07.13-11.19.34:590][ 43]LogModuleManager: Shutting down and abandoning module Networking (65)
+[2016.07.13-11.19.34:591][ 43]LogModuleManager: Shutting down and abandoning module Core (64)
+[2016.07.13-11.19.34:591][ 43]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (63)
+[2016.07.13-11.19.34:592][ 43]LogModuleManager: Shutting down and abandoning module AssetRegistry (62)
+[2016.07.13-11.19.34:754][ 43]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2016.07.13-11.19.34:754][ 43]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2016.07.13-11.19.34:754][ 43]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2016.07.13-11.19.34:755][ 43]LogModuleManager: Shutting down and abandoning module DerivedDataCache (58)
+[2016.07.13-11.19.34:794][ 43]LogDerivedDataCache: Shutdown
+[2016.07.13-11.19.34:794][ 43]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (57)
+[2016.07.13-11.19.34:794][ 43]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2016.07.13-11.19.34:796][ 43]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2016.07.13-11.19.34:796][ 43]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2016.07.13-11.19.34:796][ 43]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2016.07.13-11.19.34:796][ 43]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2016.07.13-11.19.34:796][ 43]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2016.07.13-11.19.34:796][ 43]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2016.07.13-11.19.34:796][ 43]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2016.07.13-11.19.34:796][ 43]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2016.07.13-11.19.34:796][ 43]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2016.07.13-11.19.34:796][ 43]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2016.07.13-11.19.34:796][ 43]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2016.07.13-11.19.34:796][ 43]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2016.07.13-11.19.34:796][ 43]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2016.07.13-11.19.34:796][ 43]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2016.07.13-11.19.34:796][ 43]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2016.07.13-11.19.34:796][ 43]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2016.07.13-11.19.34:796][ 43]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.07.13-11.19.34:796][ 43]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.07.13-11.19.34:796][ 43]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.07.13-11.19.34:796][ 43]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.07.13-11.19.34:796][ 43]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.07.13-11.19.34:796][ 43]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.07.13-11.19.34:796][ 43]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.07.13-11.19.34:796][ 43]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.07.13-11.19.34:796][ 43]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.07.13-11.19.34:796][ 43]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.07.13-11.19.34:796][ 43]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.07.13-11.19.34:796][ 43]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.07.13-11.19.34:796][ 43]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.07.13-11.19.34:797][ 43]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.07.13-11.19.34:797][ 43]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.07.13-11.19.34:797][ 43]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.07.13-11.19.34:797][ 43]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.07.13-11.19.34:797][ 43]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.07.13-11.19.34:797][ 43]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.07.13-11.19.34:797][ 43]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.07.13-11.19.34:797][ 43]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.07.13-11.19.36:299][ 43]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.07.13-11.19.36:302][ 43]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.07.13-11.19.36:302][ 43]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.07.13-11.19.36:302][ 43]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.07.13-11.19.36:302][ 43]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.07.13-11.19.36:302][ 43]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.07.13-11.19.36:302][ 43]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.07.13-11.19.36:304][ 43]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.07.13-11.19.36:304][ 43]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.07.13-11.19.36:304][ 43]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.07.13-11.19.36:305][ 43]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.07.13-11.19.36:305][ 43]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.07.13-11.19.36:305][ 43]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.07.13-11.19.36:305][ 43]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.07.13-11.19.36:305][ 43]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.07.13-11.19.36:305][ 43]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.07.13-11.19.36:305][ 43]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.07.13-11.19.36:306][ 43]LogExit: Exiting.
+[2016.07.13-11.19.36:307][ 43]Log file closed, 07/13/16 13:19:36
